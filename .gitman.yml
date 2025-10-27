@@ -1,0 +1,14 @@
+location: .gitman
+sources:
+  - repo: git@github.com:LASER-Robotics/laser_open_vins_core.git
+    name: laser_open_vins_core
+    rev: main
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/laser_open_vins
+    scripts:
+      - git submodule update --init --recursive
