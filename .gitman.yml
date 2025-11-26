@@ -2,7 +2,7 @@ location: .gitman
 sources:
   - repo: git@github.com:LASER-Robotics/laser_open_vins_core.git
     name: laser_open_vins_core
-    rev: main
+    rev: release/1.0
     type: git
     params:
     sparse_paths:
