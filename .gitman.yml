@@ -1,6 +1,6 @@
 location: .gitman
 sources:
-  - repo: git@github.com:LASER-Robotics/laser_open_vins_core.git
+  - repo: https://github.com/LASER-Robotics/laser_open_vins_core.git
     name: laser_open_vins_core
     rev: stable
     type: git
