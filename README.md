@@ -31,7 +31,7 @@ ros2 launch laser_open_vins_core open_vins.launch.py open_vins_params_folder:=rs
 
 The OpenVINS launch starts the estimator. Run the republisher and any required IMU filtering separately, or use the integration's simulation session. The estimation manager consumes the republished odometry at `/<UAV_NAME>/vins_republisher/odometry`.
 
-This collection has no node or runtime parameters of its own. See the [integration README](ros_packages/laser_open_vins/README.md) for launch arguments, configuration and node interfaces.
+This collection has no node or runtime parameters of its own. See the [integration README](https://github.com/LASER-Robotics/laser_open_vins_core) for launch arguments, configuration and node interfaces.
 
 ## Reference
 
